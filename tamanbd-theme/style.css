@@ -1,0 +1,19 @@
+/*
+Theme Name: TamanBD
+Theme URI: https://tamanbd.com/
+Author: TamanBD Engineering
+Author URI: https://tamanbd.com/
+Description: Premium, lightweight WooCommerce e-commerce theme for Bangladeshi lifestyle, home living, kitchenware, botanical skincare, and handloom retail. Built with native WordPress/WooCommerce hooks, PHP 8.x compatibility, Rank Math SEO support, and shared-hosting performance optimization.
+Version: 1.0.0
+Requires at least: 6.2
+Tested up to: 6.7
+Requires PHP: 8.0
+WC requires at least: 7.5
+WC tested up to: 9.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tamanbd
+Tags: e-commerce, woocommerce, custom-logo, custom-menu, featured-images, responsive-layout
+*/
+
+/* Core styles are loaded from assets/css/theme.css for clean caching and modularity. */

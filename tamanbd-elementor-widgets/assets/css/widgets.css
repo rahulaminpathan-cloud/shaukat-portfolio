@@ -1,0 +1,90 @@
+/* TamanBD Elementor Widgets Responsive Styles */
+.tmb-ew-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(var(--tmb-cols-desktop, 4), minmax(0, 1fr));
+}
+@media (max-width: 1024px) {
+  .tmb-ew-grid {
+    grid-template-columns: repeat(var(--tmb-cols-tablet, 2), minmax(0, 1fr));
+  }
+}
+@media (max-width: 640px) {
+  .tmb-ew-grid {
+    grid-template-columns: repeat(var(--tmb-cols-mobile, 1), minmax(0, 1fr));
+  }
+}
+
+.tmb-ew-promo-card {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  background: #FFFFFF;
+  border: 1px solid #E5E2DC;
+  border-radius: 14px;
+  overflow: hidden;
+  align-items: stretch;
+}
+@media (max-width: 640px) {
+  .tmb-ew-promo-card { grid-template-columns: 1fr; }
+}
+.tmb-ew-promo-copy {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+.tmb-ew-promo-media { aspect-ratio: 4 / 3; background: #F3F1EC; }
+.tmb-ew-promo-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.tmb-ew-newsletter-box {
+  background: #F3F1EC;
+  border: 1px solid #E5E2DC;
+  border-radius: 16px;
+  padding: 36px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: center;
+}
+@media (max-width: 900px) {
+  .tmb-ew-newsletter-box { grid-template-columns: 1fr; padding: 24px; }
+}
+.tmb-ew-newsletter-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.tmb-ew-newsletter-input {
+  flex: 1 1 220px;
+  height: 44px;
+  padding: 0 14px;
+  border: 1px solid #E5E2DC;
+  border-radius: 8px;
+  background: #FFFFFF;
+  font-size: 14px;
+}
+.tmb-ew-newsletter-btn {
+  height: 44px;
+  padding: 0 22px;
+  background: #0F4C3A;
+  color: #FFFFFF;
+  border: 0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.tmb-ew-newsletter-msg {
+  width: 100%;
+  font-size: 13px;
+  margin-top: 6px;
+  color: #0F4C3A;
+}
+
+/* Header widget compatibility inside Elementor containers */
+.tmb-ew-header-wrap {
+  width: 100%;
+  background: #FAF9F6;
+  border-bottom: 1px solid #E5E2DC;
+}

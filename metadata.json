@@ -1,0 +1,6 @@
+{
+  "name": "TamanBD — WooCommerce Storefront Architecture & Visual Preview",
+  "description": "Architecture blueprint and interactive homepage visual preview for the TamanBD premium Bangladeshi WooCommerce marketplace theme.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

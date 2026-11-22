@@ -1,0 +1,27 @@
+{
+  "title": "TamanBD Global Header (Free Elementor)",
+  "type": "section",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "tmb_hdr_container",
+      "elType": "container",
+      "settings": { "content_width": "full", "padding": { "top": "0", "right": "0", "bottom": "0", "left": "0", "unit": "px", "isLinked": true } },
+      "elements": [
+        {
+          "id": "tmb_w_header",
+          "elType": "widget",
+          "widgetType": "tmb-header",
+          "settings": {
+            "show_announcement": "yes",
+            "announcement_text": "Free Dhaka delivery on orders above ৳2,500 · Cash on Delivery, bKash & Nagad accepted",
+            "brand_text": "TamanBD",
+            "show_search": "yes",
+            "show_account": "yes",
+            "show_cart": "yes"
+          }
+        }
+      ]
+    }
+  ]
+}

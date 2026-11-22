@@ -1,0 +1,27 @@
+{
+  "title": "TamanBD Global Footer (Free Elementor)",
+  "type": "section",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "tmb_ftr_container",
+      "elType": "container",
+      "settings": { "content_width": "full", "padding": { "top": "0", "right": "0", "bottom": "0", "left": "0", "unit": "px", "isLinked": true } },
+      "elements": [
+        {
+          "id": "tmb_w_footer",
+          "elType": "widget",
+          "widgetType": "tmb-footer",
+          "settings": {
+            "brand_name": "TamanBD",
+            "address": "House #2, Road #12, Merul Badda, DIT Project, Dhaka-1212",
+            "phone": "+880 1823-920184",
+            "email": "info@tamanbd.com",
+            "payments_text": "Cash on Delivery · bKash · Nagad · Visa / Mastercard",
+            "copyright_text": "© 2026 TamanBD. All rights reserved."
+          }
+        }
+      ]
+    }
+  ]
+}

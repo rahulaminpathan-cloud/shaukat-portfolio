@@ -1,0 +1,26 @@
+{
+  "title": "TamanBD Category Product Showcase Section",
+  "type": "section",
+  "version": "0.4",
+  "content": [
+    {
+      "id": "tmb_cat_showcase_sec",
+      "elType": "container",
+      "settings": { "padding": { "top": "48", "right": "24", "bottom": "48", "left": "24", "unit": "px", "isLinked": false } },
+      "elements": [
+        {
+          "id": "tmb_w_cat_products",
+          "elType": "widget",
+          "widgetType": "tmb-products-grid",
+          "settings": {
+            "kicker": "Department Spotlight",
+            "heading": "Curated Category Collection",
+            "source": "category",
+            "limit": 4,
+            "columns": "4"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "title": "TamanBD Premium Homepage",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
+  "content": [
+    {
+      "id": "tmb_sec_hero",
+      "elType": "container",
+      "settings": { "content_width": "full", "padding": { "top": "0", "right": "0", "bottom": "0", "left": "0", "unit": "px", "isLinked": true } },
+      "elements": [
+        {
+          "id": "tmb_w_hero",
+          "elType": "widget",
+          "widgetType": "tmb-hero-slider",
+          "settings": {
+            "slides": [
+              {
+                "kicker": "Dhaka Living Edit · 2026",
+                "headline": "Warm Teak & Handcrafted Home Essentials",
+                "description": "Architectural shelving, brushed brass lighting, and artisanal stoneware crafted for modern Bangladeshi homes.",
+                "button_text": "Explore Store Catalog",
+                "button_link": { "url": "/shop/" }
+              },
+              {
+                "kicker": "Artisan & Botanical Capsule",
+                "headline": "Handloom Textiles Meets Pure Botanical Care",
+                "description": "Small-batch botanical serums, handwoven cottons, and solid acacia pantry ware delivered nationwide.",
+                "button_text": "Shop Featured Goods",
+                "button_link": { "url": "/shop/" }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tmb_sec_promos",
+      "elType": "container",
+      "settings": { "padding": { "top": "40", "right": "24", "bottom": "40", "left": "24", "unit": "px", "isLinked": false } },
+      "elements": [
+        {
+          "id": "tmb_w_promos",
+          "elType": "widget",
+          "widgetType": "tmb-promo-banners",
+          "settings": { "columns": "2" }
+        }
+      ]
+    },
+    {
+      "id": "tmb_sec_categories",
+      "elType": "container",
+      "settings": { "padding": { "top": "48", "right": "24", "bottom": "48", "left": "24", "unit": "px", "isLinked": false } },
+      "elements": [
+        {
+          "id": "tmb_w_cats",
+          "elType": "widget",
+          "widgetType": "tmb-categories-grid",
+          "settings": { "kicker": "Browse Departments", "heading": "Shop by Category", "limit": 4, "columns": "4" }
+        }
+      ]
+    },
+    {
+      "id": "tmb_sec_bestsellers",
+      "elType": "container",
+      "settings": { "background_background": "classic", "background_color": "#FFFFFF", "padding": { "top": "56", "right": "24", "bottom": "56", "left": "24", "unit": "px", "isLinked": false } },
+      "elements": [
+        {
+          "id": "tmb_w_bestsellers",
+          "elType": "widget",
+          "widgetType": "tmb-products-grid",
+          "settings": { "kicker": "Customer Favorites", "heading": "Best Selling Products", "source": "best_selling", "limit": 4, "columns": "4" }
+        }
+      ]
+    },
+    {
+      "id": "tmb_sec_featured",
+      "elType": "container",
+      "settings": { "padding": { "top": "56", "right": "24", "bottom": "56", "left": "24", "unit": "px", "isLinked": false } },
+      "elements": [
+        {
+          "id": "tmb_w_featured",
+          "elType": "widget",
+          "widgetType": "tmb-products-grid",
+          "settings": { "kicker": "Editor's Selection", "heading": "Featured Products", "source": "featured", "limit": 4, "columns": "4" }
+        }
+      ]
+    },
+    {
+      "id": "tmb_sec_offers",
+      "elType": "container",
+      "settings": { "background_background": "classic", "background_color": "#FFFFFF", "padding": { "top": "56", "right": "24", "bottom": "56", "left": "24", "unit": "px", "isLinked": false } },
+      "elements": [
+        {
+          "id": "tmb_w_offers",
+          "elType": "widget",
+          "widgetType": "tmb-products-grid",
+          "settings": { "kicker": "Seasonal Markdowns", "heading": "Special Offers", "source": "sale", "limit": 4, "columns": "4" }
+        }
+      ]
+    },
+    {
+      "id": "tmb_sec_promo_band",
+      "elType": "container",
+      "settings": { "background_background": "classic", "background_color": "#0F4C3A", "padding": { "top": "56", "right": "24", "bottom": "56", "left": "24", "unit": "px", "isLinked": false } },
+      "elements": [
+        {
+          "id": "tmb_w_offer_heading",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": { "title": "Complimentary Dhaka Metro Delivery Above ৳2,500", "title_color": "#FFFFFF" }
+        },
+        {
+          "id": "tmb_w_offer_text",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": { "editor": "<p style=\"color:rgba(255,255,255,0.88);\">Pay securely with Cash on Delivery upon parcel inspection, or settle instantly via bKash and Nagad.</p>" }
+        },
+        {
+          "id": "tmb_w_offer_btn",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": { "text": "Explore Special Offers", "link": { "url": "/shop/" }, "background_color": "#FFFFFF", "button_text_color": "#0F4C3A" }
+        }
+      ]
+    },
+    {
+      "id": "tmb_sec_pillars",
+      "elType": "container",
+      "settings": { "background_background": "classic", "background_color": "#FFFFFF", "padding": { "top": "56", "right": "24", "bottom": "56", "left": "24", "unit": "px", "isLinked": false } },
+      "elements": [
+        {
+          "id": "tmb_w_pillars",
+          "elType": "widget",
+          "widgetType": "tmb-why-choose-us",
+          "settings": { "kicker": "Service Standards", "heading": "Why Choose TamanBD", "columns": "4" }
+        }
+      ]
+    },
+    {
+      "id": "tmb_sec_reviews",
+      "elType": "container",
+      "settings": { "padding": { "top": "56", "right": "24", "bottom": "56", "left": "24", "unit": "px", "isLinked": false } },
+      "elements": [
+        {
+          "id": "tmb_w_reviews",
+          "elType": "widget",
+          "widgetType": "tmb-testimonials",
+          "settings": { "kicker": "Verified Buyers", "heading": "Customer Reviews", "source_mode": "wc_reviews", "limit": 3, "columns": "3" }
+        }
+      ]
+    },
+    {
+      "id": "tmb_sec_blog",
+      "elType": "container",
+      "settings": { "background_background": "classic", "background_color": "#FFFFFF", "padding": { "top": "56", "right": "24", "bottom": "56", "left": "24", "unit": "px", "isLinked": false } },
+      "elements": [
+        {
+          "id": "tmb_w_blog",
+          "elType": "widget",
+          "widgetType": "tmb-blog-posts",
+          "settings": { "kicker": "Editorial Journal", "heading": "Latest Blog Posts", "posts_count": 3, "columns": "3" }
+        }
+      ]
+    },
+    {
+      "id": "tmb_sec_newsletter",
+      "elType": "container",
+      "settings": { "padding": { "top": "56", "right": "24", "bottom": "56", "left": "24", "unit": "px", "isLinked": false } },
+      "elements": [
+        {
+          "id": "tmb_w_newsletter",
+          "elType": "widget",
+          "widgetType": "tmb-newsletter",
+          "settings": { "heading": "Receive New Artisan Drops & Seasonal Offers", "button_text": "Subscribe" }
+        }
+      ]
+    }
+  ]
+}
